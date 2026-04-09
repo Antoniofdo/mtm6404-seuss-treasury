@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Books from "./Books";
 import BooksData from "./BooksData";
 import Quotes from "./Quotes";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/books/:id" element={<BooksData />} />
         <Route path="/quotes" element={<Quotes />} />
       </Routes>
+      <Footer />
     </>
   );
 }
